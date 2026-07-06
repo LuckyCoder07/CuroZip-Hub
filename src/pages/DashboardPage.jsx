@@ -46,10 +46,10 @@ const DashboardPage = () => {
         const resolvedHubId = typeof hubId === 'object' ? hubId._id : hubId;
         
         const [ordersRes, authRes] = await Promise.all([
-          axios.get(`http://localhost:5000/api/orders/hub/${resolvedHubId}`, {
+          axios.get(`https://curozip-admin.onrender.com/api/orders/hub/${resolvedHubId}`, {
             headers: { Authorization: `Bearer ${token}` }
           }),
-          axios.get('http://localhost:5000/api/auth/me', {
+          axios.get('https://curozip-admin.onrender.com/api/auth/me', {
             headers: { Authorization: `Bearer ${token}` }
           })
         ]);

@@ -10,7 +10,7 @@ import Modal from '../components/shared/Modal';
 import StatusBadge from '../components/shared/StatusBadge';
 import { useNavigate } from 'react-router-dom';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://curozip-admin.onrender.com/api';
 
 const AddPartnerModal = ({ isOpen, onClose, onSave, myHubId, token }) => {
   const { addToast } = useToast();

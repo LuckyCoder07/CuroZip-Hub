@@ -7,7 +7,7 @@ import axios from 'axios';
 import OrderLifecycleTracker from '../components/shared/OrderLifecycleTracker';
 import StatusBadge from '../components/shared/StatusBadge';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://curozip-admin.onrender.com/api';
 
 const statusColors = {
   'Booked': 'bg-blue-500/20 text-blue-400 border-blue-500/30',

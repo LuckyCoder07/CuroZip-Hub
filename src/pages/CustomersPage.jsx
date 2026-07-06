@@ -8,7 +8,7 @@ import DataTable from '../components/shared/DataTable';
 import StatusBadge from '../components/shared/StatusBadge';
 import OrderLifecycleTracker from '../components/shared/OrderLifecycleTracker';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://curozip-admin.onrender.com/api';
 
 const CustomerDetailSlideOver = ({ customer, onClose }) => {
   const [expandedCard, setExpandedCard] = useState(null);

@@ -7,7 +7,7 @@ import PageHeader from '../components/shared/PageHeader';
 import DataTable from '../components/shared/DataTable';
 import StatusBadge from '../components/shared/StatusBadge';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://curozip-admin.onrender.com/api';
 
 const ALL_STATUSES = [
   'Booked', 'Pickup Assigned', 'Picked Up', 'In Transit', 

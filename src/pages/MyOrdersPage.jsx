@@ -10,7 +10,7 @@ import StatusBadge from '../components/shared/StatusBadge';
 import EmptyState from '../components/shared/EmptyState';
 import Modal from '../components/shared/Modal';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://curozip-admin.onrender.com/api';
 
 const COMPLETED_STATUSES = ['Delivered', 'Failed / Returned'];
 

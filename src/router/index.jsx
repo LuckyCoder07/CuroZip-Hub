@@ -38,7 +38,7 @@ const ProtectedRoute = ({ children, allowedRoles }) => {
       <div className="h-screen w-screen flex flex-col items-center justify-center bg-cz-dark-bg text-cz-text-primary p-4 text-center">
         <h1 className="text-2xl font-bold text-red-500 mb-2">Access Denied</h1>
         <p className="text-cz-text-secondary">Super admins must use the Admin Portal.</p>
-        <a href="http://localhost:5177" className="mt-4 px-4 py-2 bg-cz-accent-orange text-white rounded-lg text-sm">Go to Admin Portal</a>
+        <a href="https://curozip-admin.vercel.app" className="mt-4 px-4 py-2 bg-cz-accent-orange text-white rounded-lg text-sm">Go to Admin Portal</a>
       </div>
     );
   }

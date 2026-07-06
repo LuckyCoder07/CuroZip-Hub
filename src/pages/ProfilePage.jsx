@@ -4,7 +4,7 @@ import { useToast } from '../components/shared/ToastContext';
 import { User, Phone, Mail, MapPin, Shield, Loader2, Eye, EyeOff } from 'lucide-react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://curozip-admin.onrender.com/api';
 
 const ProfilePage = () => {
   const { user, token, hubName, login } = useAuth();

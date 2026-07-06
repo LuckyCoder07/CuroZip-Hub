@@ -11,7 +11,7 @@ import StatusBadge from '../components/shared/StatusBadge';
 import OrderLifecycleTracker from '../components/shared/OrderLifecycleTracker';
 import SelectDropdown from '../components/shared/SelectDropdown';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://curozip-admin.onrender.com/api';
 
 const formatDate = (d) => {
   if (!d) return '—';
